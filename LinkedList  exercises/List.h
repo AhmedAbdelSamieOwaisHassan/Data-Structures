@@ -13,7 +13,9 @@ private:
 
 	node *head, *cursor, *prev;
 	
-	
+	//exercises
+	int List_Size2( node *h) ;
+	int Display( node  *h);
 
 
 
@@ -50,9 +52,7 @@ private:
 	void orderInsert(const char &, const int & );//
 	void traverse();//
 	
-//exercises
-	int List_Size2( node *h) ;
-	int Display( node  *h);
+
 	//exercises
 	void reverse();
 	int getMiddle();
@@ -68,6 +68,7 @@ private:
 
 	};
 	
+
 
 
 
